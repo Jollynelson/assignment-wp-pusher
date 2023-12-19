@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    margin-top: 3rem;
+}
+
+.header-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #E0E6EA;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item{
+    padding-right: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.btn-holder{
+    background-color: #fff;
+}
+
+.btn{
+    padding: 1.1rem 2rem 1.2rem 1.9rem;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.checkout-section{
+    width: 100%;
+    height: auto;
+    margin-top: 8.5rem;
+}
+
+.checkout-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.information-area{
+    padding: 4rem;
+    width: 60%;
+}
+
+.checkout-header{
+    margin-bottom: 2rem;
+}
+
+.checkout-header > p {
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkout-information{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.information-text{
+  
+}
+
+
+.information-text > p{
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+
+.plan-area{
+   width: 40%;
+   padding: 2rem;
+   border-radius: 0px 6px 6px 0px;
+   background: #1179BF;
+   border: 1px solid yellow;
+}
+
+.names{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+}
+
+.personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+label{
+    color: #1D2C3C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.8rem;
+}
+
+input[type="text"]{
+    border-radius: 4px;
+    background: #EDEFF2;
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 3.6rem;
+}
+
+.email-address{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.checkout-bottom{
+    margin: 5.5rem 0rem;
+}
+
+input[type="email"]{
+    border-radius: 4px;
+    background: #EDEFF2;
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 3.6rem;
+}
+
+input[type="number"]{
+    border-radius: 4px;
+    background: #EDEFF2;
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 3.6rem;
+}
+
+
+.btn-holder > .pay-btn{
+    width: 100%;
+    height: 5.2rem;
+    border-radius: 5px;
+    color: #fff;
+    background: #038E7D;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.396px;
+    border: none;
+}
+
+.help-area{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 2rem 0rem;
+    gap: 1rem;
+    color: #1D2C3C;
+}
+
+.help-text >  p{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.span-text{
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.plan-area{
+    padding: 4rem;
+    color: #fff;
+}
+
+
+.power-area{
+    display: flex;
+    justify-content: center;
+}
+
+
+.freelancer-header{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+}
+
+.freelancer-price > p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.dollar-sup{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.price{
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.015px;
+}
+
+.offer-text{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.008px;
+}
+
+
+.offers{
+ margin-top: 1.5rem;
+}
+
+.offer-list{
+    list-style: none;
+}
+
+.offer-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.1rem 0rem;
+}
+
+.item-text{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.008px;  
+}
+
+.client-swtich-area{
+    padding: 3.5rem 0rem;
+    width: 75%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.client-text{
+    margin-bottom: 1.1rem;
+}
+.client-text > p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
+
+}
+
+
+.switch-text > a{
+    border-bottom:1px solid  #B9F5FF;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.008px;
+}
+
+.comment-area{
+    margin-top: 1.5rem;
+}
+
+.comment{
+    color: #FFF;
+font-family: Lato;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+letter-spacing: -0.009px;
+}
+
+
+.comment-span{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009px;
+}
+
+.picture-name{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.img-holder > img{
+    border-radius: 50%;
+}
+
+.name > p{
+    color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.008px;
+}
